@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 def check_toxicity_api(sentence):
-  API_KEY = 'AIzaSyAEDAWTjTM1pjCKlZ8DisniLXyCpJmlZkM'
+  API_KEY = ''  #Use your personal Api Key (API KEY revoked due to security purpose)
 
   client = discovery.build(
     "commentanalyzer",
